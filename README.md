@@ -12,3 +12,10 @@ anyawya this would be a nice project structure to startw tih:
         parser.h         // dpoing the Parser class that parses the tokens.
     CMakeLists.txt (using CMake)
 ```
+
+2) those tokens can be parsed into html using the parser class.
+
+3) the parser class is a recursive descent parser, meaning that it parses the tokens in the order they are given to.
+
+4) the parser class will return a string containing the html that was generated.
+I am thinking of using CMake but i dont know how to tho.
