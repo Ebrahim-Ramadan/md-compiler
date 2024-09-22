@@ -1,5 +1,5 @@
 steps on my mind when creating this markdown compiler:
-1) The first step is to read the input and break it down into tokens. Tokens can represent headers, links, bold text, and other md elements.
+1) the first step is to read the input and break it down into tokens. Tokens can represent headers, links, bold text, and other md elements.
 anyawya this would be a nice project structure to startw tih:
 ```
 /md-compiler

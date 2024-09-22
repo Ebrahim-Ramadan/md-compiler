@@ -7,7 +7,7 @@ int main() {
     std::string markdown;
     std::string line;
     
-    std::cout << "Enter your Markdown text (press Ctrl+D on a new line to finish):\n";
+    std::cout << "type your md text (press Ctrl+D on a new line to finish):\n";
     while (std::getline(std::cin, line)) {
         markdown += line + "\n";
     }
