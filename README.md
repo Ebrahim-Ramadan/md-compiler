@@ -8,7 +8,7 @@ anyawya this would be a nice project structure to startw tih:
         lexer.cpp        // doing the Lexer class (converts markdown text into tokens).
         parser.cpp       // doing the Parser class ( parses tokens into html).
     /include
-        lexer.h          // dpoing the Lexer class and token structures like TokenType and Token.
+        lexer.h          // short for lexical analyzer, its main job is to break down the input Markdown text into a series of tokens.
         parser.h         // dpoing the Parser class that parses the tokens.
     CMakeLists.txt (using CMake)
 ```
